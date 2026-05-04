@@ -76,7 +76,7 @@ export const projects: Project[] = [
     tags: ['Mobile App', 'Ensemble Learning', 'Embedded Systems', 'Machine Learning', 'IoT'],
     overview: 'An intelligent agriculture system that integrates IoT soil monitoring with ensemble machine learning (XGBoost, Random Forest, Gradient Boosting, Extra Trees) to improve and predict marigold bloom yield with high accuracy.',
     features: ['Real-time Soil Monitoring', 'Predicts marigold bloom quantity', 'IoT-Based Data Collection System', 'Ensemble Machine Learning Model', 'Automated Environmental Monitoring', 'Data-Driven Decision Support for Farmers'],
-    liveUrl: 'https://drive.google.com/drive/u/1/folders/1RUfIWPrEFakn5yww_8wQqEmYjzTTkc0Y',
+    liveUrl: 'https://drive.google.com/file/d/1LetYUyUT-Ox-XFA3QKro2tOIE9ljySXn/view?usp=sharing',
     image: floracast1,
     screenshots: [floracast1, floracast2, floracast4, floracast3],
   },
@@ -93,7 +93,7 @@ export const contact = {
   linkedinUrl: 'https://www.linkedin.com/in/gian-nico-otchengco-78a982383/',
 
   resume: 'Gian Nico A. Otchengco - Resume.pdf',
-  resumeUrl: 'https://drive.google.com/drive/u/1/folders/1BPqZCcJZVuGyfqYaVfw9gQCNO7eTXs9q',
+  resumeUrl: 'https://drive.google.com/file/d/1kRutovf6kb8oNOVGOEP259KA6i75iysh/view?usp=sharing',
 };
 
 export const person = {
