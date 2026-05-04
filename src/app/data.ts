@@ -107,7 +107,7 @@ export const person = {
   coords: '14.4081° N, 121.0415° E',
   location: 'Muntinlupa City, PH',
   locationLabel: 'Muntinlupa City, PH · Open to Remote',
-  experience: '1.5 Years',
+  experience: '1.5 years',
   focus: 'Full-Stack Development',
-  languages: 'Java · JS · Python · SQL',
+  languages: 'Java · Javascript · TypeScript · Python · SQL',
 };
