@@ -49,6 +49,8 @@ export const skills: Skill[] = [
   { logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg', name: 'Git' },
   { logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg', name: 'GitHub', invert: true },
   { logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg', name: 'CSS3' },
+  { logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg', name: 'WordPress' },
+  { logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg', name: 'Machine Learning (Ensemble Models)' },
   { logo: 'https://n8n.io/favicon.ico', name: 'n8n' },
   { logo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg', name: 'LLM / AI', invert: true },
   { logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg', name: 'Embedded Systems',},
