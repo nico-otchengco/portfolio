@@ -10,10 +10,10 @@ import signup from '@/assets/signup.png';
 import teammember from '@/assets/teammember.png';
 import profilepic from '@/assets/profilepic.jpg';
 
-import floracast1 from '@/assets/floracast1.png';
-import floracast2 from '@/assets/floracast2.png';
-import floracast3 from '@/assets/floracast3.png';
-import floracast4 from '@/assets/floracast4.png';
+import floracast1 from '@/assets/floracast1.jpg';
+import floracast2 from '@/assets/floracast2.jpg';
+import floracast3 from '@/assets/floracast3.jpg';
+import floracast4 from '@/assets/floracast4.jpg';
 
 
 export interface Project {
