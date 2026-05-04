@@ -10,6 +10,11 @@ import signup from '@/assets/signup.png';
 import teammember from '@/assets/teammember.png';
 import profilepic from '@/assets/profilepic.jpg';
 
+import floracast1 from '@/assets/floracast1.png';
+import floracast2 from '@/assets/floracast2.png';
+import floracast3 from '@/assets/floracast3.png';
+import floracast4 from '@/assets/floracast4.png';
+
 
 export interface Project {
   num: string;
@@ -61,6 +66,18 @@ export const projects: Project[] = [
     image: homepage,
     screenshots: [homepage, login, signup, createorg, orgplan, orgdashboard, boardview, teammember, activitylogo, calender],
   },
+
+  {
+    num: '02',
+    title: 'FloraCast AI',
+    desc: 'FloraCast AI is an IoT and machine learning-based system that predicts marigold bloom quantity using soil NPK data through ensemble regression models.',
+    tags: ['Mobile App', 'Ensemble Learning', 'Embedded Systems', 'Machine Learning', 'IoT'],
+    overview: 'A lightweight project management tool where multiple teams (organizations) can manage their own boards, tasks, and members — all within the same app, but completely isolated from each other.',
+    features: ['Create multiple organizations (multi-tenant setup)', 'Manage Kanban boards', 'Drag and drop tasks between columns', 'Track activity logs per organization', 'View simple analytics (completion rate, priorities)', 'Secure data per organization using RLS in Supabase'],
+    liveUrl: 'https://drive.google.com/drive/u/1/folders/1RUfIWPrEFakn5yww_8wQqEmYjzTTkc0Y',
+    image: floracast1,
+    screenshots: [floracast1, floracast2, floracast4, floracast3],
+  },
 ];
 
 export const contact = {
@@ -74,7 +91,7 @@ export const contact = {
   linkedinUrl: 'https://www.linkedin.com/in/gian-nico-otchengco-78a982383/',
 
   resume: 'Gian Nico A. Otchengco - Resume.pdf',
-  resumeUrl: 'https://drive.google.com/file/d/1s8n9j3l7XoQh0a2ZyKqjvVt5XkLhH/preview',
+  resumeUrl: 'https://drive.google.com/drive/u/1/folders/1BPqZCcJZVuGyfqYaVfw9gQCNO7eTXs9q',
 };
 
 export const person = {
