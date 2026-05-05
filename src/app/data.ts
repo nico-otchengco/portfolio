@@ -61,7 +61,7 @@ export const projects: Project[] = [
     num: '01',
     title: 'Structura Workspace',
     desc: 'Structura is a project I built to really understand how multi-tenant SaaS apps work behind the scenes. Instead of just cloning a basic Trello board, I wanted something closer to how real systems handle organizations, permissions, and data isolation.',
-    tags: ['React', 'Vite', 'Supabase', 'Groq AI'],
+    tags: ['React', 'Vite', 'CSS3', 'Supabase', 'REST API', 'Groq LLM', 'SaaS'],
     overview: 'A lightweight project management tool where multiple teams (organizations) can manage their own boards, tasks, and members — all within the same app, but completely isolated from each other.',
     features: ['Create multiple organizations (multi-tenant setup)', 'Manage Kanban boards', 'Drag and drop tasks between columns', 'Track activity logs per organization', 'View simple analytics (completion rate, priorities)', 'Secure data per organization using RLS in Supabase'],
     liveUrl: 'https://structura-workspace.vercel.app',
@@ -71,9 +71,21 @@ export const projects: Project[] = [
 
   {
     num: '02',
+    title: 'SmartSoil: Soil Health Monitoring System',
+    desc: 'A full-stack IoT-based system designed for real-time soil health analysis and data-driven agricultural decision-making.',
+    tags: ['React', 'TypeScript', 'CSS3', 'Supabase', 'REST API', 'IoT', 'Embedded System'],
+    overview: 'The system collects and processes soil data. Then, ata is transmitted from the device to the cloud and visualized through a web dashboard, enabling users to monitor soil conditions and make informed decisions such as crop selection and soil treatment.',
+    features: ['Real-time Soil Monitoring', 'Data Visualization', 'Crop Recommendation System', 'Soil Treatment Insights', 'Cloud Integration'],
+    liveUrl: 'https://drive.google.com/file/d/1LetYUyUT-Ox-XFA3QKro2tOIE9ljySXn/view?usp=sharing',
+    image: floracast1,
+    screenshots: [],
+  },
+
+  {
+    num: '03',
     title: 'FloraCast AI',
     desc: 'FloraCast AI is an IoT and machine learning-based system that predicts marigold bloom quantity using soil NPK data through ensemble regression models.',
-    tags: ['Mobile App', 'Ensemble Learning', 'Embedded Systems', 'Machine Learning', 'IoT'],
+    tags: ['Mobile App', 'Ensemble Learning', 'Embedded System', 'Machine Learning', 'IoT'],
     overview: 'An intelligent agriculture system that integrates IoT soil monitoring with ensemble machine learning (XGBoost, Random Forest, Gradient Boosting, Extra Trees) to improve and predict marigold bloom yield with high accuracy.',
     features: ['Real-time Soil Monitoring', 'Predicts marigold bloom quantity', 'IoT-Based Data Collection System', 'Ensemble Machine Learning Model', 'Automated Environmental Monitoring', 'Data-Driven Decision Support for Farmers'],
     liveUrl: 'https://drive.google.com/file/d/1LetYUyUT-Ox-XFA3QKro2tOIE9ljySXn/view?usp=sharing',
