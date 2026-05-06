@@ -111,7 +111,7 @@ export const contact = {
 export const person = {
   name: 'Gian Nico Otchengco',
   nameShort: 'NICO',
-  title: 'Full Stack Developer / ',
+  title: 'Aspiring Full Stack Developer / Software Engineer',
   bio1: 'I\'m a Developer based in Muntinlupa City who\'s spent 1.5 years building things on the web that actually work — not just things that look like they work.',
   bio2: 'My stack is React/TypeScript on the front, Node.js and Java on the back, and PostgreSQL/Oracle/Supabase for data. I automate workflows with n8n and I\'m comfortable across the full pipeline — from writing PL/SQL queries to shipping polished, responsive UIs.',
   bio3: 'I care about clean architecture, readable code, and user experience — in that order. I also build AI-powered features, integrating LLMs like OpenAI into real products. If a feature is too complex to explain simply, it probably needs to be redesigned.',
