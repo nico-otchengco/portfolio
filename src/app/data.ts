@@ -76,7 +76,7 @@ export const projects: Project[] = [
     tags: ['React', 'TypeScript', 'CSS3', 'Supabase', 'REST API', 'IoT', 'Embedded System'],
     overview: 'The system collects and processes soil data. Then, ata is transmitted from the device to the cloud and visualized through a web dashboard, enabling users to monitor soil conditions and make informed decisions such as crop selection and soil treatment.',
     features: ['Real-time Soil Monitoring', 'Data Visualization', 'Crop Recommendation System', 'Soil Treatment Insights', 'Cloud Integration'],
-    liveUrl: 'https://drive.google.com/file/d/1LetYUyUT-Ox-XFA3QKro2tOIE9ljySXn/view?usp=sharing',
+    liveUrl: 'https://smartsoil-system.vercel.app',
     image: floracast1,
     screenshots: [],
   },
