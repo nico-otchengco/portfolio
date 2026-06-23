@@ -15,6 +15,17 @@ import floracast2 from '@/assets/floracast2.jpg';
 import floracast3 from '@/assets/floracast3.jpg';
 import floracast4 from '@/assets/floracast4.jpg';
 
+import manager1 from '@/assets/pharmacymanager/manager1.png'
+import manager2 from '@/assets/pharmacymanager/manager2.png'
+import manager3 from '@/assets/pharmacymanager/manager3.png'
+import manager4 from '@/assets/pharmacymanager/manager4.png'
+import manager5 from '@/assets/pharmacymanager/manager5.png'
+import manager6 from '@/assets/pharmacymanager/manager6.png'
+import manager7 from '@/assets/pharmacymanager/manager7.png'
+import manager8 from '@/assets/pharmacymanager/manager8.png'
+import manager9 from '@/assets/pharmacymanager/manager9.png'
+import manager10 from '@/assets/pharmacymanager/manager10.png'
+import manager11 from '@/assets/pharmacymanager/manager11.png'
 
 export interface Project {
   num: string;
@@ -59,6 +70,20 @@ export const skills: Skill[] = [
 export const projects: Project[] = [
   {
     num: '01',
+    title: 'Pharmacy Manager',
+    desc: 'Pharmacy Manager is a cloud-based pharmacy management system that simplifies inventory, sales, cashflow, and reporting in one platform. Built for independent pharmacies in the Philippines with automated SC/PWD discounts, FIFO expiry tracking, and role-based staff access.',
+    tags: ['React', 'TypeScript', 'Vite', 'Tailwind', 'Supabase', 'REST API', 'SaaS'],
+    overview: 'A lightweight project management tool where multiple teams (organizations) can manage their own boards, tasks, and members — all within the same app, but completely isolated from each other.',
+    features: ['Multi-tenant pharmacy management system', 'Inventory tracking with FIFO stock rotation', 'Batch and expiry date monitoring', 'Integrated POS with multiple payment methods', 'Automated SC/PWD discount compliance', 'Role-based access control (RBAC)', 'Cashflow and expense tracking', 'PDF report generation',
+      'Audit logging and activity tracking'
+    ],
+    liveUrl: 'https://pharmacymanager.vercel.app',
+    image: manager1,
+    screenshots: [manager1, manager2, manager3, manager4, manager5, manager6, manager7, manager8, manager9, manager10, manager11],
+  },
+  
+  {
+    num: '02',
     title: 'Structura Workspace',
     desc: 'Structura is a project I built to really understand how multi-tenant SaaS apps work behind the scenes. Instead of just cloning a basic Trello board, I wanted something closer to how real systems handle organizations, permissions, and data isolation.',
     tags: ['React', 'Vite', 'CSS3', 'Supabase', 'REST API', 'Groq LLM', 'SaaS'],
@@ -70,7 +95,7 @@ export const projects: Project[] = [
   },
 
   {
-    num: '02',
+    num: '03',
     title: 'SmartSoil: Soil Health Monitoring System',
     desc: 'A full-stack IoT-based system designed for real-time soil health analysis and data-driven agricultural decision-making.',
     tags: ['React', 'TypeScript', 'CSS3', 'Supabase', 'REST API', 'IoT', 'Embedded System'],
@@ -82,7 +107,7 @@ export const projects: Project[] = [
   },
 
   {
-    num: '03',
+    num: '04',
     title: 'FloraCast AI',
     desc: 'FloraCast AI is an IoT and machine learning-based system that predicts marigold bloom quantity using soil NPK data through ensemble regression models.',
     tags: ['Mobile App', 'Ensemble Learning', 'Embedded System', 'Machine Learning', 'IoT'],
